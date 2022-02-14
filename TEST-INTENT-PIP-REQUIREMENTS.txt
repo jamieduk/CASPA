@@ -1,0 +1,9 @@
+pip install datetime
+pip install certifi
+
+may need these
+
+pip install pipwin
+pipwin install pyaudio
+
+

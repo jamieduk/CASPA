@@ -1,0 +1,35 @@
+python -m pip install --upgrade pip
+
+
+pip install --force-reinstall numpy==1.18.5 --no-warn-script-location
+
+pip install absl-py gast astunparse flatbuffers gasp google-pasta grpcio h5py keras keras-preprocessing libclang absl-py google-auth google-auth-oauthlib grpcio tensorboard-data-server tensorboard-plugin-wit
+
+sudo apt update
+
+sudo apt upgrade -y
+
+restart and run ./setup.py with correct args found in notes.txt
+
+
+
+Already Added to install list
+
+behaviour is the source of the following dependency conflicts.
+tensorflow 2.8.0 requires absl-py>=0.4.0, which is not installed.
+tensorflow 2.8.0 requires astunparse>=1.6.0, which is not installed.
+tensorflow 2.8.0 requires flatbuffers>=1.12, which is not installed.
+tensorflow 2.8.0 requires gast>=0.2.1, which is not installed.
+tensorflow 2.8.0 requires google-pasta>=0.1.1, which is not installed.
+tensorflow 2.8.0 requires grpcio<2.0,>=1.24.3, which is not installed.
+tensorflow 2.8.0 requires h5py>=2.9.0, which is not installed.
+tensorflow 2.8.0 requires keras<2.9,>=2.8.0rc0, which is not installed.
+tensorflow 2.8.0 requires keras-preprocessing>=1.1.1, which is not installed.
+tensorflow 2.8.0 requires libclang>=9.0.1, which is not installed.
+tensorboard 2.8.0 requires absl-py>=0.4, which is not installed.
+tensorboard 2.8.0 requires google-auth<3,>=1.6.3, which is not installed.
+tensorboard 2.8.0 requires google-auth-oauthlib<0.5,>=0.4.1, which is not installed.
+tensorboard 2.8.0 requires grpcio>=1.24.3, which is not installed.
+tensorboard 2.8.0 requires tensorboard-data-server<0.7.0,>=0.6.0, which is not installed.
+tensorboard 2.8.0 requires tensorboard-plugin-wit>=1.6.0, which is not installed.
+

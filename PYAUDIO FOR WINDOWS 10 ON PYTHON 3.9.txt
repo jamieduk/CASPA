@@ -1,0 +1,20 @@
+python3 3.9.6 version required for pyaudio wheel to work
+
+
+
+Use "https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio" link to download .whl file according to the python version it supports.
+
+Go to the following directory and run this command on command prompt (Windows here)
+
+C:\Users\USERNAME\AppData\Local\Programs\Python\Python39\Scripts
+
+
+for me its
+
+cd C:\Users\Jay\AppData\Local\Programs\Python\Python39\Scripts
+
+
+pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+
+
+
